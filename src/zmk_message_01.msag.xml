@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>ZMK_MESSAGE_01</ARBGB>
+    <MASTERLANG>D</MASTERLANG>
+    <STEXT>Message 01 Class</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZMK_MESSAGE_01</ARBGB>
+     <MSGNR>000</MSGNR>
+     <TEXT>Use the program on Monday!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZMK_MESSAGE_01</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>Use the program on &amp;!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZMK_MESSAGE_01</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>Use the program on &amp; and &amp;!</TEXT>
+    </T100>
+   </T100>
+  </asx:values>
+ </asx:abap>
+</abapGit>

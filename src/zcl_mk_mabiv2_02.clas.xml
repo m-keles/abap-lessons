@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_MK_MABIV2_02</CLSNAME>
+    <LANGU>D</LANGU>
+    <DESCRIPT>ZCL_MK_MABIV2_02</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_MK_MABIV2_02</CLSNAME>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Test Constructor</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_MK_MABIV2_02</CLSNAME>
+     <CMPNAME>GET_NUMBER</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Test get number</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_MK_MABIV2_02</CLSNAME>
+     <CMPNAME>NUMBER</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Natürliche Zahl</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_MK_MABIV2_02</CLSNAME>
+     <CMPNAME>WRITE_ATTRIBUTE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>test write ATTRIBUTE</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_MK_MABIV2_02</CLSNAME>
+     <CMPNAME>WRITE_NUMBER</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>test write number</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

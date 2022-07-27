@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZMK_CLASS_01</CLSNAME>
+    <LANGU>D</LANGU>
+    <DESCRIPT>ZMK_CLASS_01</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZMK_CLASS_01</CLSNAME>
+     <CMPNAME>CREATE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>zmk_class_01 create</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZMK_CLASS_01</CLSNAME>
+     <CMPNAME>DELETE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>zmk_class_01 delete</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZMK_CLASS_01</CLSNAME>
+     <CMPNAME>GS_STRUCTURE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>ZMK_TABLE_01</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZMK_CLASS_01</CLSNAME>
+     <CMPNAME>GT_TABLE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Table type of the zmk_table_01</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZMK_CLASS_01</CLSNAME>
+     <CMPNAME>READ</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>zmk_class_01 read</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZMK_CLASS_01</CLSNAME>
+     <CMPNAME>UPDATE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>zmk_class_01 update</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

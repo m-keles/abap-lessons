@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Funktiongruppe 1</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZ09_FG_01TOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZ09_FG_01</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>Z09_FG_1_BAUSTEIN</FUNCNAME>
+     <SHORT_TEXT>Lernen Funktion 1</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IV_NUM1</PARAMETER>
+       <DEFAULT>1</DEFAULT>
+       <TYP>INT4</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_NUM2</PARAMETER>
+       <DEFAULT>0</DEFAULT>
+       <TYP>INT4</TYP>
+      </RSIMP>
+     </IMPORT>
+     <CHANGING>
+      <RSCHA>
+       <PARAMETER>CV_MES</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <REFERENCE>X</REFERENCE>
+       <TYP>CHAR20</TYP>
+      </RSCHA>
+     </CHANGING>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>EV_RESULT</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>INT4</TYP>
+      </RSEXP>
+     </EXPORT>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>DIVIDED_BY_ZERO</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IV_NUM1</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Erste Zahl</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_NUM2</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Zweite Zahl</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>EV_RESULT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Result Zahl</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>CV_MES</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Char 20</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>DIVIDED_BY_ZERO</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>cannot divide by zero</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>
